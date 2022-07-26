@@ -17,7 +17,7 @@ for x in prime {
         for j in 2..<x {
             if x % j == 0{
                 checker = false
-                break;
+                break
             }
         }
     }
